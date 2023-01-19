@@ -33,7 +33,7 @@ def enviar_email(Assunto, Origem, Destino, Senha, Corpo_do_email):
     smt.login(mensagem['From'], Senha)
 
     #envia o email
-    smt.sendmail(mensagem['From'], [mensagem['To'], mensagem.as_string().encode('utf-8')])
+    smt.sendmail(mensagem['From'], [mensagem['To']], mensagem.as_string().encode('utf-8'))
 
     print(f'email enviado de {Origem} para {Destino} com sucesso')
 
