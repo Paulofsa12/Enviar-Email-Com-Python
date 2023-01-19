@@ -9,7 +9,7 @@ senha = 'sua-senha-aqui' #senha gerada pelo gmail (passo a passo no readme)
 
 #definir a mensagem do e-mail dentro das aspas triplas. Obs: o corpo do texto pode ser em formato html
 corpo_do_email = '''
-    Esse é um texte de envio de email
+    Esse é um texto de envio de email
     '''
 
 #Função para enviar o e-mail.
